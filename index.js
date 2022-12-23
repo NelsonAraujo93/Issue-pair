@@ -1,4 +1,4 @@
-const worksArray = [
+const worksArrays = [
   {
     name: 'Vagos studios web',
     description: 'This a website and portfolio.',
@@ -55,7 +55,7 @@ const worksArray = [
   },
 ];
 
-const popUp = (item, position) => {
+const popUp2 = (item, position) => {
   const popUpContainer = document.createElement('section');
   const popUpContent = document.createElement('article');
   const popUpHeader = document.createElement('div');
